@@ -1,0 +1,30 @@
+{
+    "app":  "EPS",
+    "latest":  {
+                   "version":  "2.3.0",
+                   "build":  2026101501,
+                   "date":  "2026-10-15",
+                   "notes":  [
+                                 "الإصدار الأول: الدفتر البيداغوجي الرقمي EPS",
+                                 "مزامنة البيانات بين الهاتف والحاسوب",
+                                 "مخطط المؤسسة وتحسينات الرسم بإصبعين",
+                                 "حماية التخزين وإصلاح استيراد الصور من الألبوم"
+                             ],
+                   "important":  false,
+                   "downloads":  {
+                                     "windows":  {
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v2.3.0/EPS-Setup.exe",
+                                                     "size":  34608640,
+                                                     "sha256":  "be1ee6ce9dc7e17adfc6bcbb4a76418f58468fee6bdf6f6c820b01d1b6b08a73",
+                                                     "signature":  "xS9dNFmiUPBXWlSZWLO9kIVo1UwLIKOCuQyUGMNbbGvn9J2/HJniIaNxMNfecACVLu1Aw/szPrXEsvx0kDp7/KZukjuxwBaLMjU7wUiML1QwZN8gJ8BV4xfS0saRH3GUZi8xQB4ZwvMtmNIPXlIdFn9a2Kodlwja+sQ4V9p/ngmefc8QNJeb8LrPC/L980B2P3MAn9kZWl5g89YO9xysd4DfTL/w+ycS0IyTDA0GE+dUX+xXGCCgUC7mtwIv9yzSdEZ4XBQIjSYkf+GPv/IkNSDtxVEC7jSlYmPRNhH/Ia1nTNKiaHG2426GFDwmscHluo3j3BfJga/4PistU2lqvg=="
+                                                 },
+                                     "android":  {
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v2.3.0/EPS-Platform.apk",
+                                                     "size":  23645668,
+                                                     "sha256":  "b5a889f1d8b1a2922901cec45e638dafbe186b18056ddaea1acbb8207473e470"
+                                                 }
+                                 }
+               },
+    "minSupported":  "2.0.0",
+    "message":  ""
+}
