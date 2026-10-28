@@ -1,27 +1,39 @@
 {
     "app":  "EPS",
     "latest":  {
-                   "version":  "2.3.0",
-                   "build":  2026101501,
-                   "date":  "2026-10-15",
+                   "version":  "3.0.0",
+                   "build":  2026102808,
+                   "date":  "2026-10-28",
                    "notes":  [
-                                 "الإصدار الأول: الدفتر البيداغوجي الرقمي EPS",
-                                 "مزامنة البيانات بين الهاتف والحاسوب",
-                                 "مخطط المؤسسة وتحسينات الرسم بإصبعين",
-                                 "حماية التخزين وإصلاح استيراد الصور من الألبوم"
+                                 "المزامنة: ربط الهاتف والحاسوب مرة واحدة ثم ضغطة واحدة (أرسل / اجلب / دمج)، ملخص كامل لما سيتغيّر ولماذا، استثناء أي نوع بيانات، والهاتف يمكنه أن يكون المضيف إن منع جدار الحماية الحاسوب",
+                                 "حماية: قسم غاب عن أحد الجهازين دون حذفه لا يُحذف من الآخر، وأي حذف يظهر بالأحمر ويحتاج تأكيداً",
+                                 "استعمال الزمن: زر «نظام الدوامين» لتوقيت متواصل من 08:00 إلى 17:00. الاستراحة للمدرسة كلها ولا تُحسب من الحصة: إن تخلّلت الحصة يُضاف وقتها إلى نهايتها (حصة 14:00 مع استراحة تنتهي 15:15، والسنة الرابعة ساعة ونصف)، وإن كانت خارجها فلا تأثير لها",
+                                 "مخطط الوحدة التعلمية بسبعة أعمدة: نوع الحصة، مركبات الكفاءة، الموارد المعرفية، محتوى التعلم، المعارف المجندة، محتوى الإنجاز، التوجيهات — كل مركبة ومورد ومعارف مجندة تمتد على حصصها",
+                                 "مولّد الوحدات: طباعة وتحميل Word مجمّع للوحدة التعلمية مع مذكراتها، كل مذكرة في صفحة",
+                                 "ملفات Word التي يصنعها البرنامج: تُفتح وتُطبع من «المكتبة»، وتظهر في Word مرتبة (بطاقات وتوقيعات في صفوف، دون صفحة بيضاء)",
+                                 "المذكرة: «محتوى التعلم» بدل «الهدف الإجرائي» وحذف «عنوان الوحدة»؛ وفي Word كل مذكرة في صفحتها",
+                                 "المكتبة: مذكرات السنة الرابعة لميداني «الحركات القاعدية» و«الهيكلة والبناء» (الوحدة مع مذكراتها بهوية الأستاذ)، ويقرؤها الاستيراد في الدفتر اليومي",
+                                 "مولّد الوحدات: «الكفاءة الختامية» و«مركبات الكفاءة» من المنهاج الرسمي لكل مستوى وميدان",
+                                 "أهداف الحصص مصاغة انطلاقاً من الكفاءة ومركباتها وتبدأ دائماً بـ «أن»",
+                                 "خانة «الموارد المعرفية» من المنهاج، ومحتوى تعلم مختلف لكل حصة (لا تكرار بين الحصتين أ و ب)",
+                                 "الطباعة مطابقة للمعاينة في الدفتر البيداغوجي وكل الوثائق، دون رابط أسفل الورقة ودون جداول مقسومة",
+                                 "الدفتر اليومي: كل أسبوع في صفحة أو صفحتين متناسقتين",
+                                 "هامش أبيض صغير في كل الوثائق المطبوعة (لا كتابة على حافة الورقة)",
+                                 "الهاتف: تطبيق جديد يُثبَّت بجانب القديم — فعّله بمفتاح جديد منّا ثم انقل بياناتك بالمزامنة مع الحاسوب، وبعدها احذف القديم",
+                                 "المثبّت يثبّت مكوّن Microsoft WebView2 تلقائياً إن لم يكن في الحاسوب، فيعمل البرنامج دائماً في نافذته مع المزامنة كاملة"
                              ],
                    "important":  false,
                    "downloads":  {
                                      "windows":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v2.3.0/EPS-Setup.exe",
-                                                     "size":  34608640,
-                                                     "sha256":  "be1ee6ce9dc7e17adfc6bcbb4a76418f58468fee6bdf6f6c820b01d1b6b08a73",
-                                                     "signature":  "xS9dNFmiUPBXWlSZWLO9kIVo1UwLIKOCuQyUGMNbbGvn9J2/HJniIaNxMNfecACVLu1Aw/szPrXEsvx0kDp7/KZukjuxwBaLMjU7wUiML1QwZN8gJ8BV4xfS0saRH3GUZi8xQB4ZwvMtmNIPXlIdFn9a2Kodlwja+sQ4V9p/ngmefc8QNJeb8LrPC/L980B2P3MAn9kZWl5g89YO9xysd4DfTL/w+ycS0IyTDA0GE+dUX+xXGCCgUC7mtwIv9yzSdEZ4XBQIjSYkf+GPv/IkNSDtxVEC7jSlYmPRNhH/Ia1nTNKiaHG2426GFDwmscHluo3j3BfJga/4PistU2lqvg=="
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.0/EPS-Setup.exe",
+                                                     "size":  55617536,
+                                                     "sha256":  "d6f5cd3856fecfbbb4dc159d3f6b70e0e43eaa0cfebd71435adfe260edd49a57",
+                                                     "signature":  "scvDKCv1lF9p77ktSoDD1GfyXDayl/mpLmWlwtcdeDSUBKiX1v/y9YrQWctzq1R+szY9ciH8pxHNwvkJot7F3TrtNTxIuNtl4LP0ttVkXcgwhMbuDfosHs5ebiWRckhDhXjLaPA1R5dBE2FLFx1oEs/cUjLCbsUeK3VgNTyRdc9B0JLsC7u1k1jnz1bo3Mq6QoWzd4XLnOqk6DjAS23BNb0+MPkCExXUYaf9TL5dXhPnoWry2WLIY3pz6oLDNzy8FKDkRKfLHl0i1WdKE+VuIv0rs9PyQVaStBplsklaAhSOnDZXQ4cet4AezqoM1jdtlzTy57PVikv5vFsajyF//g=="
                                                  },
                                      "android":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v2.3.0/EPS-Platform.apk",
-                                                     "size":  23645668,
-                                                     "sha256":  "b5a889f1d8b1a2922901cec45e638dafbe186b18056ddaea1acbb8207473e470"
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.0/EPS-Platform.apk",
+                                                     "size":  40241140,
+                                                     "sha256":  "26e78e46b808bdce3a3e32ba0df7d85028cde424f9450858e79ab563a5701fcd"
                                                  }
                                  }
                },
