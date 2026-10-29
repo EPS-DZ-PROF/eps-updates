@@ -1,4 +1,6 @@
 {
+  "revoked": "1031",
+  "revokedSig": "PAMM82P18FMNBHYKMJA0G2YGYJ31T987YD273AC2PMPRY0C3FXVDK5PPGNT0MDZRSFX1EW7QWNTVTWSGQG2EGB4P4A9M3WDHWG0FKH0",
     "app":  "EPS",
     "latest":  {
                    "version":  "3.0.3",
