@@ -1,12 +1,15 @@
 {
-  "revoked": "1031",
-  "revokedSig": "PAMM82P18FMNBHYKMJA0G2YGYJ31T987YD273AC2PMPRY0C3FXVDK5PPGNT0MDZRSFX1EW7QWNTVTWSGQG2EGB4P4A9M3WDHWG0FKH0",
+    "revoked":  "1031",
+    "revokedSig":  "PAMM82P18FMNBHYKMJA0G2YGYJ31T987YD273AC2PMPRY0C3FXVDK5PPGNT0MDZRSFX1EW7QWNTVTWSGQG2EGB4P4A9M3WDHWG0FKH0",
     "app":  "EPS",
     "latest":  {
-                   "version":  "3.0.3",
-                   "build":  2026102911,
-                   "date":  "2026-10-29",
+                   "version":  "3.0.4",
+                   "build":  2026103003,
+                   "date":  "2026-10-30",
                    "notes":  [
+                                 "المكتبة: تعديل المذكرة يُحفظ فعلاً ويبقى عند إعادة فتحها وفي الطباعة والتحميل والنسخة الاحتياطية، مع زر «النسخة الأصلية» للرجوع",
+                                 "الدفتر البيداغوجي: شبكة تقويم الكفاءات لكل مستوى تُطبع مع شبكات التقويم المستمر",
+                                 "الطباعة: المخطط السنوي المستورد من ملف الأستاذ وسجل الحالات الصحية يُطبعان دون عبارة «متزامنة» ودون اسم الملف",
                                  "الهاتف: نسخ احتياطية تلقائية كل يوم في مجلد تختاره مرة واحدة (مثل Documents/EPS)، تبقى حتى لو حُذف التطبيق أو أُعيد تثبيته، وتُسترجع منها البيانات والتفعيل بضغطة",
                                  "الهاتف: زر الرجوع يغلق النافذة المفتوحة أولاً، وقائمة «المزيد» في الدفتر اليومي تظهر كاملة داخل الشاشة، وأزرار صغيرة أسهل للمس",
                                  "الهاتف: ملفات Word (استعمال الزمن، الدفتر اليومي، شبكة التقويم…) تُحفظ بصيغة .doc فتُفتح في Word، وتذكير أسبوعي بإرسال نسخة إلى الحاسوب أو البريد",
@@ -17,23 +20,20 @@
                                  "الهاتف: تحميل ملفات Word من «المكتبة» والنسخة الاحتياطية وكل الملفات يُحفظ فعلاً في الهاتف (تظهر نافذة «حفظ» في الهاتف)",
                                  "التحديث: من يفتح البرنامج في المتصفح على الحاسوب يجد الآن رابط تنزيل الحاسوب (EPS-Setup.exe يثبّت WebView2 تلقائياً)",
                                  "المزامنة: ربط الهاتف والحاسوب مرة واحدة ثم ضغطة واحدة (أرسل / اجلب / دمج)، ملخص كامل لما سيتغيّر ولماذا، استثناء أي نوع بيانات، والهاتف يمكنه أن يكون المضيف إن منع جدار الحماية الحاسوب",
-                                 "حماية: قسم غاب عن أحد الجهازين دون حذفه لا يُحذف من الآخر، وأي حذف يظهر بالأحمر ويحتاج تأكيداً",
-                                 "استعمال الزمن: زر «نظام الدوامين» لتوقيت متواصل من 08:00 إلى 17:00. الاستراحة للمدرسة كلها ولا تُحسب من الحصة: إن تخلّلت الحصة يُضاف وقتها إلى نهايتها (حصة 14:00 مع استراحة تنتهي 15:15، والسنة الرابعة ساعة ونصف)، وإن كانت خارجها فلا تأثير لها",
-                                 "مخطط الوحدة التعلمية بسبعة أعمدة: نوع الحصة، مركبات الكفاءة، الموارد المعرفية، محتوى التعلم، المعارف المجندة، محتوى الإنجاز، التوجيهات — كل مركبة ومورد ومعارف مجندة تمتد على حصصها",
-                                 "مولّد الوحدات وملفات Word: طباعة وتحميل Word مجمّع للوحدة مع مذكراتها (كل مذكرة في صفحتها)، وملفات Word التي يصنعها البرنامج تُفتح وتُطبع من «المكتبة» مرتبة"
+                                 "حماية: قسم غاب عن أحد الجهازين دون حذفه لا يُحذف من الآخر، وأي حذف يظهر بالأحمر ويحتاج تأكيداً"
                              ],
                    "important":  false,
                    "downloads":  {
                                      "windows":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.3/EPS-Setup.exe",
-                                                     "size":  56065024,
-                                                     "sha256":  "f9462645495d7b7bfe2a00145f4bc682e936046fc0d437483523a945ed520c37",
-                                                     "signature":  "GL7RZSixEc1iq4/9YWaxR4W7l+d5TuyPxqpJyvWTfNK5EnHiUPhPKG7TKxoMHWHIx18vv2adhri7WkGZ26rqzhBYGJHoAdYdo058GFg4Hg8MgOGyhI6xoK86bxg82wul2y6PuElRCTUth1FOAFA2/AF6/jXPsVRRsJYkUg2uOOa36s0i9LvIW0YRHT5c/g8TnHnS2YJoA7cRr2ScUyq75RKLLHdlajpDHCOCCbLi2cL1ghtAalqWlVZagOrAhvdp6+L2A5ZF4nExGf6w5umEE8XlLFq4ux/u+/gR4DMN0XqzxAs0ZuNfYfQhXCcw4pcb3yjB/jsx2QLt0NTL4ht0rg=="
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.4/EPS-Setup.exe",
+                                                     "size":  56066560,
+                                                     "sha256":  "6fae79f45057dfa0329f568d4ca6aad6fe9ae6ec2a638f48a5aa9f494e2a71e9",
+                                                     "signature":  "Ytz/f9xVKA2l6vajh70A2ZvdsiWnqvTZLtvnHXd9K+v9IFyc/5oWl7AaF079smJZboxbkEkqWNXWw9kNHXTCPy2RnFTom9BWrVpQuakFgMwts21zlfVGi0ljhQ0/Qrmnm0enrRUpfYehSSN+bh/6oLI34w2GYM4rMWnWcK8AjZdk7nZdVDlir6E7NoiivrMtdB653kzcPctoVr72os7ZaAUvRWHACt/nvHq6DSUbLiPgg1c3dy5G2U7pVd8X9tr5caIW2a+du5CRfRpmtkFKSeJX59urXqJsQuYd30ggOn8i74p022DzeDIxj/wg2VWbtXxF7p3GY9lE8943FyHcRw=="
                                                  },
                                      "android":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.3/EPS-Platform.apk",
-                                                     "size":  40691700,
-                                                     "sha256":  "d24a45865a318bf68a682349b71a6a8496d2c55dbadc5a241e2cb7c991051869"
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.4/EPS-Platform.apk",
+                                                     "size":  40695796,
+                                                     "sha256":  "30db4948ce676a5ff6f5f84261fe18508c7e5514c66269b7312611076ccc22fc"
                                                  }
                                  }
                },
