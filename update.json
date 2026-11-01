@@ -3,10 +3,12 @@
     "revokedSig":  "PAMM82P18FMNBHYKMJA0G2YGYJ31T987YD273AC2PMPRY0C3FXVDK5PPGNT0MDZRSFX1EW7QWNTVTWSGQG2EGB4P4A9M3WDHWG0FKH0",
     "app":  "EPS",
     "latest":  {
-                   "version":  "3.0.4",
-                   "build":  2026103003,
-                   "date":  "2026-10-30",
+                   "version":  "3.0.5",
+                   "build":  2026110101,
+                   "date":  "2026-11-01",
                    "notes":  [
+                                 "الميادين: زر «استيراد مجمّع» يستورد كل الميادين والمستويات دفعة واحدة من مولّد الوحدات أو من وثائق المكتبة، مع اختيار الوثائق والتراجع",
+                                 "الدفتر اليومي: كل تعديل يُحفظ أثناء الكتابة فلا يضيع عند إغلاق البرنامج، وحُذفت عبارة «يوم دراسي عادي» من ملاحظات نهاية العطلة",
                                  "المكتبة: تعديل المذكرة يُحفظ فعلاً ويبقى عند إعادة فتحها وفي الطباعة والتحميل والنسخة الاحتياطية، مع زر «النسخة الأصلية» للرجوع",
                                  "الدفتر البيداغوجي: شبكة تقويم الكفاءات لكل مستوى تُطبع مع شبكات التقويم المستمر",
                                  "الطباعة: المخطط السنوي المستورد من ملف الأستاذ وسجل الحالات الصحية يُطبعان دون عبارة «متزامنة» ودون اسم الملف",
@@ -18,22 +20,20 @@
                                  "التحديثات: يبحث البرنامج عن التحديث الجديد عند كل فتح (كل ساعة بدل كل 12 ساعة)",
                                  "الترخيص: يتحقق البرنامج من حالة المفتاح عبر الإنترنت مرة في اليوم (رقم المفتاح ورمز الجهاز فقط، دون أي بيانات شخصية)",
                                  "الهاتف: تحميل ملفات Word من «المكتبة» والنسخة الاحتياطية وكل الملفات يُحفظ فعلاً في الهاتف (تظهر نافذة «حفظ» في الهاتف)",
-                                 "التحديث: من يفتح البرنامج في المتصفح على الحاسوب يجد الآن رابط تنزيل الحاسوب (EPS-Setup.exe يثبّت WebView2 تلقائياً)",
-                                 "المزامنة: ربط الهاتف والحاسوب مرة واحدة ثم ضغطة واحدة (أرسل / اجلب / دمج)، ملخص كامل لما سيتغيّر ولماذا، استثناء أي نوع بيانات، والهاتف يمكنه أن يكون المضيف إن منع جدار الحماية الحاسوب",
-                                 "حماية: قسم غاب عن أحد الجهازين دون حذفه لا يُحذف من الآخر، وأي حذف يظهر بالأحمر ويحتاج تأكيداً"
+                                 "التحديث: من يفتح البرنامج في المتصفح على الحاسوب يجد الآن رابط تنزيل الحاسوب (EPS-Setup.exe يثبّت WebView2 تلقائياً)"
                              ],
                    "important":  false,
                    "downloads":  {
                                      "windows":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.4/EPS-Setup.exe",
-                                                     "size":  56066560,
-                                                     "sha256":  "6fae79f45057dfa0329f568d4ca6aad6fe9ae6ec2a638f48a5aa9f494e2a71e9",
-                                                     "signature":  "Ytz/f9xVKA2l6vajh70A2ZvdsiWnqvTZLtvnHXd9K+v9IFyc/5oWl7AaF079smJZboxbkEkqWNXWw9kNHXTCPy2RnFTom9BWrVpQuakFgMwts21zlfVGi0ljhQ0/Qrmnm0enrRUpfYehSSN+bh/6oLI34w2GYM4rMWnWcK8AjZdk7nZdVDlir6E7NoiivrMtdB653kzcPctoVr72os7ZaAUvRWHACt/nvHq6DSUbLiPgg1c3dy5G2U7pVd8X9tr5caIW2a+du5CRfRpmtkFKSeJX59urXqJsQuYd30ggOn8i74p022DzeDIxj/wg2VWbtXxF7p3GY9lE8943FyHcRw=="
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.5/EPS-Setup.exe",
+                                                     "size":  56070656,
+                                                     "sha256":  "1ef3690c1defb5e282daac4664b70a8c5239a4a99b51064d81a963303e364c7d",
+                                                     "signature":  "Up7QVki7LmM2HHdIA9XpHqoxJYnz7zapeJVfvzwkXR8qmN4jVzzp7zFbhjDl2aPqaEIwMmwLS51bMFteaofcz5EKQ3AHTye67RbNoHG2MUO0FNA1ycA1cL9ZP35I7F4BELVVCafwoW/LlO9jwzsRmZpMKowxE4L57oouOGmrjd5+tMQ07b3VsZRlvkZ+3Z4rg5NrBo45wnhwzS64kmjBIAzRmMEHu5/S0ebStSArWh/aGnhnsiDlXrc0MsBVKVF5SxZ3pLkk3V26t0mfwNJPgB1WIsu/CnlWqoOX8YgJWtGoNIHOQH3hZradwEybLbExqhiJNpNHMtCCRfJWfZE5BQ=="
                                                  },
                                      "android":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.4/EPS-Platform.apk",
-                                                     "size":  40695796,
-                                                     "sha256":  "30db4948ce676a5ff6f5f84261fe18508c7e5514c66269b7312611076ccc22fc"
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.5/EPS-Platform.apk",
+                                                     "size":  40699892,
+                                                     "sha256":  "a01417511ffc994e87d8267ff694fa21be6ab013011151d359cb6738e832e356"
                                                  }
                                  }
                },
