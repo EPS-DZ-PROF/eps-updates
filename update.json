@@ -3,10 +3,15 @@
     "revokedSig":  "PAMM82P18FMNBHYKMJA0G2YGYJ31T987YD273AC2PMPRY0C3FXVDK5PPGNT0MDZRSFX1EW7QWNTVTWSGQG2EGB4P4A9M3WDHWG0FKH0",
     "app":  "EPS",
     "latest":  {
-                   "version":  "3.0.5",
-                   "build":  2026110101,
-                   "date":  "2026-11-01",
+                   "version":  "3.0.7",
+                   "build":  2026110302,
+                   "date":  "2026-11-03",
                    "notes":  [
+                                 "الهاتف: قائمة التلميذ (الضغط المطوّل) تظهر كاملة فوق شريط التبويبات، وتصعد كل أوامرها عند التمرير",
+                                 "التحديثات: يبحث البرنامج عن التحديث بعد 5 ثوانٍ من كل فتح",
+                                 "المذكرات: كل وحدة تعليمية في صفحة واحدة عند فتحها في Word، فلا تنزاح الصفحات",
+                                 "المذكرات (الحركات القاعدية والهيكلة والبناء): «محتوى التعلم» بدل «المورد المعرفي» قبل جدول الحصة",
+                                 "عرض المذكرات: المؤسسة والأستاذ والسنة الدراسية في أماكنها الصحيحة",
                                  "الميادين: زر «استيراد مجمّع» يستورد كل الميادين والمستويات دفعة واحدة من مولّد الوحدات أو من وثائق المكتبة، مع اختيار الوثائق والتراجع",
                                  "الدفتر اليومي: كل تعديل يُحفظ أثناء الكتابة فلا يضيع عند إغلاق البرنامج، وحُذفت عبارة «يوم دراسي عادي» من ملاحظات نهاية العطلة",
                                  "المكتبة: تعديل المذكرة يُحفظ فعلاً ويبقى عند إعادة فتحها وفي الطباعة والتحميل والنسخة الاحتياطية، مع زر «النسخة الأصلية» للرجوع",
@@ -16,24 +21,20 @@
                                  "الهاتف: زر الرجوع يغلق النافذة المفتوحة أولاً، وقائمة «المزيد» في الدفتر اليومي تظهر كاملة داخل الشاشة، وأزرار صغيرة أسهل للمس",
                                  "الهاتف: ملفات Word (استعمال الزمن، الدفتر اليومي، شبكة التقويم…) تُحفظ بصيغة .doc فتُفتح في Word، وتذكير أسبوعي بإرسال نسخة إلى الحاسوب أو البريد",
                                  "المكتبة: مذكرات السنة الأولى للميادين الثلاثة بنسختها المصحَّحة (الوحدة مع مذكراتها بهوية الأستاذ) — تحلّ محلّ القديمة تلقائياً",
-                                 "المخطط السنوي للسنة الرابعة: الحجم الساعي 15 سا للميدان الأول و13 سا 30 د للميدانين الثاني والثالث (حصص ساعة ونصف)",
-                                 "التحديثات: يبحث البرنامج عن التحديث الجديد عند كل فتح (كل ساعة بدل كل 12 ساعة)",
-                                 "الترخيص: يتحقق البرنامج من حالة المفتاح عبر الإنترنت مرة في اليوم (رقم المفتاح ورمز الجهاز فقط، دون أي بيانات شخصية)",
-                                 "الهاتف: تحميل ملفات Word من «المكتبة» والنسخة الاحتياطية وكل الملفات يُحفظ فعلاً في الهاتف (تظهر نافذة «حفظ» في الهاتف)",
-                                 "التحديث: من يفتح البرنامج في المتصفح على الحاسوب يجد الآن رابط تنزيل الحاسوب (EPS-Setup.exe يثبّت WebView2 تلقائياً)"
+                                 "المخطط السنوي للسنة الرابعة: الحجم الساعي 15 سا للميدان الأول و13 سا 30 د للميدانين الثاني والثالث (حصص ساعة ونصف)"
                              ],
                    "important":  false,
                    "downloads":  {
                                      "windows":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.5/EPS-Setup.exe",
-                                                     "size":  56070656,
-                                                     "sha256":  "1ef3690c1defb5e282daac4664b70a8c5239a4a99b51064d81a963303e364c7d",
-                                                     "signature":  "Up7QVki7LmM2HHdIA9XpHqoxJYnz7zapeJVfvzwkXR8qmN4jVzzp7zFbhjDl2aPqaEIwMmwLS51bMFteaofcz5EKQ3AHTye67RbNoHG2MUO0FNA1ycA1cL9ZP35I7F4BELVVCafwoW/LlO9jwzsRmZpMKowxE4L57oouOGmrjd5+tMQ07b3VsZRlvkZ+3Z4rg5NrBo45wnhwzS64kmjBIAzRmMEHu5/S0ebStSArWh/aGnhnsiDlXrc0MsBVKVF5SxZ3pLkk3V26t0mfwNJPgB1WIsu/CnlWqoOX8YgJWtGoNIHOQH3hZradwEybLbExqhiJNpNHMtCCRfJWfZE5BQ=="
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.7/EPS-Setup.exe",
+                                                     "size":  56160256,
+                                                     "sha256":  "603945e87ac474274600213fae0c31584d28cb17f6e7253fa5ab35cca21026ea",
+                                                     "signature":  "ZBTeaPMPF1FYXsJMOZeXErAE+LdyaCFbD+k8J9Yfh5/UauGap2HVHWSSX3VCYNjF9MbVpa4Faj6w4SADdYJOK3ms8pjCrqegLVctO9iezc2+xfU5Boa0nOuzXwzhISfR1su/07eh94LUjUdx549HZ4KbNg+xOTMo9ZcckxesxyUa0Fc06pOg/NERQH02lLBtGfPqLWW664vu9i5Lg0qfWe6wlzPk2wNOh43TcMrpyYG436ZUpwE7nESbOFjmfG1hlpb1rVChl4b4Pvr5aORILMPahuXs2QJoKWKUwofvWzik8PAWOOf7NUOOAUjG+hicWxeHQRvYzABWQ0CB7nKYww=="
                                                  },
                                      "android":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.5/EPS-Platform.apk",
-                                                     "size":  40699892,
-                                                     "sha256":  "a01417511ffc994e87d8267ff694fa21be6ab013011151d359cb6738e832e356"
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.7/EPS-Platform.apk",
+                                                     "size":  40794100,
+                                                     "sha256":  "58e9680e68433ace7b15db452c14c4f4ef9567c09483512949667785ae2f2d46"
                                                  }
                                  }
                },
