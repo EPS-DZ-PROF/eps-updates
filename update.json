@@ -3,10 +3,13 @@
     "revokedSig":  "PAMM82P18FMNBHYKMJA0G2YGYJ31T987YD273AC2PMPRY0C3FXVDK5PPGNT0MDZRSFX1EW7QWNTVTWSGQG2EGB4P4A9M3WDHWG0FKH0",
     "app":  "EPS",
     "latest":  {
-                   "version":  "3.0.7",
-                   "build":  2026110302,
+                   "version":  "3.0.8",
+                   "build":  2026110303,
                    "date":  "2026-11-03",
                    "notes":  [
+                                 "الرياضة المدرسية: التلاميذ المسجَّلون يبقون بعد إغلاق البرنامج وفتحه (كانوا يختفون)",
+                                 "المكتبة: زر «↩️ النسخة الأصلية» على بطاقة كل وثيقة عدّلتها، وعليه علامة «🆕 محدّثة» إذا وصلت نسخة أصلية أحدث",
+                                 "المكتبة: زر «♻️ استرجاع الوثائق المحذوفة» يرجع الوثائق الجاهزة التي حذفتها",
                                  "الهاتف: قائمة التلميذ (الضغط المطوّل) تظهر كاملة فوق شريط التبويبات، وتصعد كل أوامرها عند التمرير",
                                  "التحديثات: يبحث البرنامج عن التحديث بعد 5 ثوانٍ من كل فتح",
                                  "المذكرات: كل وحدة تعليمية في صفحة واحدة عند فتحها في Word، فلا تنزاح الصفحات",
@@ -26,15 +29,15 @@
                    "important":  false,
                    "downloads":  {
                                      "windows":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.7/EPS-Setup.exe",
-                                                     "size":  56160256,
-                                                     "sha256":  "603945e87ac474274600213fae0c31584d28cb17f6e7253fa5ab35cca21026ea",
-                                                     "signature":  "ZBTeaPMPF1FYXsJMOZeXErAE+LdyaCFbD+k8J9Yfh5/UauGap2HVHWSSX3VCYNjF9MbVpa4Faj6w4SADdYJOK3ms8pjCrqegLVctO9iezc2+xfU5Boa0nOuzXwzhISfR1su/07eh94LUjUdx549HZ4KbNg+xOTMo9ZcckxesxyUa0Fc06pOg/NERQH02lLBtGfPqLWW664vu9i5Lg0qfWe6wlzPk2wNOh43TcMrpyYG436ZUpwE7nESbOFjmfG1hlpb1rVChl4b4Pvr5aORILMPahuXs2QJoKWKUwofvWzik8PAWOOf7NUOOAUjG+hicWxeHQRvYzABWQ0CB7nKYww=="
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.8/EPS-Setup.exe",
+                                                     "size":  56160768,
+                                                     "sha256":  "70ea0577668dfcf3771bc634b4c7fecdcbc48aaa3bd19d94e4c50222394bff0c",
+                                                     "signature":  "Q76MaRbOhqY16dv5V8zyXSP8ajRueL8oouY3jWacJxatLa9JpsS4Z/YrBjHJcEvheSvAqOgqL0BOorSR2438xJFq9jz+fH4MvLEXomhBGnuDW1EcbU3ydrlffLZXeNsmmmcCkdooCRBiqc0g0nGHBXIXSVsQJ7XEasLfHrjw7bhh0xCjClF784iyM9mc8xpnl3WA+PxoN2CQVK+ADOdbYNxcNxHWeoNUQw1ZpMvGw3ZfxrmYNMkHSfYfL2GZs3YQao4MpZn62jZ8xQvK6Sn92HH9L5/H7WLxMaDn7lqGXaktoeWagg0rTa+ztjL/xvpiHedVXrJ6o/HcyY4ZdnxmYQ=="
                                                  },
                                      "android":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.7/EPS-Platform.apk",
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.8/EPS-Platform.apk",
                                                      "size":  40794100,
-                                                     "sha256":  "58e9680e68433ace7b15db452c14c4f4ef9567c09483512949667785ae2f2d46"
+                                                     "sha256":  "f9218adb18c62c5e3b41ce1d274a96ee72d08264610be2b50ed817ef5cf2cec5"
                                                  }
                                  }
                },
