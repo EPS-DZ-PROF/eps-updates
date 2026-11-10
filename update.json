@@ -3,10 +3,13 @@
     "revokedSig":  "PAMM82P18FMNBHYKMJA0G2YGYJ31T987YD273AC2PMPRY0C3FXVDK5PPGNT0MDZRSFX1EW7QWNTVTWSGQG2EGB4P4A9M3WDHWG0FKH0",
     "app":  "EPS",
     "latest":  {
-                   "version":  "3.0.8",
-                   "build":  2026110303,
-                   "date":  "2026-11-03",
+                   "version":  "3.0.9",
+                   "build":  2026110901,
+                   "date":  "2026-11-09",
                    "notes":  [
+                                 "الهاتف: الطباعة تطبع الوثيقة وحدها بمقاس A4 كما في الحاسوب، فلا تنزاح الصفحات ولا تنقسم (الدفتر البيداغوجي، الدفتر اليومي، المذكرات وكل الوثائق)، وزر «PDF» في المعاينة يحفظها ملف PDF مطابقًا للطباعة",
+                                 "قائمة التلاميذ: اختيار الجنس عند إضافة تلميذ، وتعديل الجنس مع الاسم وتاريخ الازدياد بزر ✎",
+                                 "استيراد القوائم: ملف قائمة المدرسة كاملة (عمودا «السنة» و«القسم») يُقرأ قسمًا قسمًا لكل مستوى، ويُتجاهَل التحضيري",
                                  "الرياضة المدرسية: التلاميذ المسجَّلون يبقون بعد إغلاق البرنامج وفتحه (كانوا يختفون)",
                                  "المكتبة: زر «↩️ النسخة الأصلية» على بطاقة كل وثيقة عدّلتها، وعليه علامة «🆕 محدّثة» إذا وصلت نسخة أصلية أحدث",
                                  "المكتبة: زر «♻️ استرجاع الوثائق المحذوفة» يرجع الوثائق الجاهزة التي حذفتها",
@@ -29,15 +32,15 @@
                    "important":  false,
                    "downloads":  {
                                      "windows":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.8/EPS-Setup.exe",
-                                                     "size":  56160768,
-                                                     "sha256":  "70ea0577668dfcf3771bc634b4c7fecdcbc48aaa3bd19d94e4c50222394bff0c",
-                                                     "signature":  "Q76MaRbOhqY16dv5V8zyXSP8ajRueL8oouY3jWacJxatLa9JpsS4Z/YrBjHJcEvheSvAqOgqL0BOorSR2438xJFq9jz+fH4MvLEXomhBGnuDW1EcbU3ydrlffLZXeNsmmmcCkdooCRBiqc0g0nGHBXIXSVsQJ7XEasLfHrjw7bhh0xCjClF784iyM9mc8xpnl3WA+PxoN2CQVK+ADOdbYNxcNxHWeoNUQw1ZpMvGw3ZfxrmYNMkHSfYfL2GZs3YQao4MpZn62jZ8xQvK6Sn92HH9L5/H7WLxMaDn7lqGXaktoeWagg0rTa+ztjL/xvpiHedVXrJ6o/HcyY4ZdnxmYQ=="
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.9/EPS-Setup.exe",
+                                                     "size":  56162816,
+                                                     "sha256":  "a08e6234944f648bd60776f238df90e3da12038ec95a16f4aaa191b40f7c422e",
+                                                     "signature":  "AEzIqsZzQcLCOfOy2RGUtw+P4cpvZzkY7vkCKhAws/dBScfISw+Tgw/1jQNYULISdzGVapMQMToefI5xBtqf7g8AYx5r+rbuaS5rhsDRTzrcBkPzZ+QCytJGx+xf7BgOmM3suDz//dIKXcq8MJ23k1+AwSKQlrA50S119Pm7vgYILAFXpGDb3s3IMdNxKF+CffEOZYL+8WmnqeYxzy0675rKEE9rfWDPpYpGEx5u4xaJ7Au7DsgilrXCpLt3UF8AtZeR4a+fE5ZUoIOuUXZ8OJxcAiPryY9YuQanhsN61JrSz8HYsnIlybNt+L0KqiNjhKoIOwBM1WztYOv50+XMlw=="
                                                  },
                                      "android":  {
-                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.8/EPS-Platform.apk",
-                                                     "size":  40794100,
-                                                     "sha256":  "f9218adb18c62c5e3b41ce1d274a96ee72d08264610be2b50ed817ef5cf2cec5"
+                                                     "url":  "https://github.com/EPS-DZ-PROF/eps-updates/releases/download/v3.0.9/EPS-Platform.apk",
+                                                     "size":  40798196,
+                                                     "sha256":  "5fe54950c94c6643cd8c7278b6adaedb74b78d361980194e473923e5e81df00c"
                                                  }
                                  }
                },
